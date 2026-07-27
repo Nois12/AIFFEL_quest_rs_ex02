@@ -32,8 +32,8 @@ BasicBlock과 BottleneckBlock을 활용하여 ResNet-34와 ResNet-50을 구현�
         - 중요! 잘 작성되었다고 생각되는 부분을 캡쳐해 근거로 첨부
 
     -> 가장 핵심적인 부분은 ResNet의 블록을 생성하는 _make_layer() 함수와 residual connection을 처리하는 BasicBlock 및 BottleneckBlock이라고 생각합니다.그래서 사진과 같은 코드를 보고 이해되는데 도움이 되었던 것 같습니다.
-       
-       <img width="621" height="757" alt="image" src="https://github.com/user-attachments/assets/e8d7b616-361b-412b-adde-db662cebefd2" />
+       <img width="625" height="446" alt="image" src="https://github.com/user-attachments/assets/20ed8081-de6e-4467-b1d5-89b1b4fdc034" />
+
 
 
         
