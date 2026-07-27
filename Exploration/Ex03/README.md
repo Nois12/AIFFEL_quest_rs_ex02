@@ -15,9 +15,7 @@ BasicBlock과 BottleneckBlock을 활용하여 ResNet-34와 ResNet-50을 구현�
 
 ② Image Classification 모델 훈련
 
-`torchvision`에서 제공하는 CIFAR-10 데이터셋을 사용하여 모델을 학습하였습니다.
-PlainNet-34, ResNet-34, PlainNet-50, ResNet-50의 학습이 정상적으로 진행되었으며,  
-epoch가 진행됨에 따라 training loss가 전반적으로 감소하는 것을 확인할 수 있었습니다.
+`torchvision`에서 제공하는 CIFAR-10 데이터셋을 사용하여 모델을 학습하였습니다.PlainNet-34, ResNet-34, PlainNet-50, ResNet-50의 학습이 정상적으로 진행되었으며,epoch가 진행됨에 따라 training loss가 전반적으로 감소하는 것을 확인할 수 있었습니다.
 
 ③ Ablation Study 결과 비교
 동일한 epoch와 학습 조건에서 다음 네 모델을 학습하여 validation accuracy를 비교하였습니다.
